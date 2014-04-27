@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<htmL>
+
+<head>
+	<title>Carpe Diem</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style>
+	body {
+            padding-top: 20px;
+        }
+        
+        .jumbotron {
+            background: url('img/winter.JPG');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        #me-img {
+            width: 120px;
+            border: 1px solid #777;
+            padding: 3px;
+            display: block;
+            margin: auto auto 10px;
+        }
+
+        iframe {
+        	display:none;
+        }
+
+	</style>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>	
+
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="jumbotron">
+				<h1>Hello everyone!</h1>
+				<p>This is a page of things I love. I don't know what else to write here. Hope you enjoy!</p>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/maths.jpg" class="img-thumbnail" alt="" />
+				<h3>Maths</h3>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			</div>
+
+			<div class="col-sm-3">
+				<img src="img/tennis.jpg" class="img-thumbnail" alt="" />
+				<h3>Tennis</h3>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			</div>
+
+			<div class="col-sm-3">
+				<img src="img/violin.jpg" class="img-thumbnail" alt="" />
+				<h3>Violin</h3>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			</div>
+
+			<div class="col-sm-3">
+				<img src="img/food.jpg" class="img-thumbnail" alt="" />
+				<h3>Food</h3>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			</div>
+		</div>
+
+<iframe name="hidden_iframe" id="hidden_iframe"></iframe>
+	<div id="message"></div>
+
+		<div class="row">
+			<form action="https://docs.google.com/forms/d/1-RCOw0LkD7wV7GdZ_tkaP78j3ysQNNEsNg2OK9mNI-I/formResponse" method="POST" id="ss-form" target="hidden_iframe">
+				<input type="text" name="entry.1026205804" />
+				<textarea name="entry.1392987783" rows="8" cols="0" class="ss-q-long" id="entry_1392987783" dir="auto" aria-label="Message "></textarea>
+				<input type="submit" name="submit" value="Submit" id="ss-submit" />
+			</form>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="javascript/form.js" ></script>
+</body>	
+
+</html>
