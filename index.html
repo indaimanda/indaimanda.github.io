@@ -18,6 +18,7 @@
         
         img {
             max-width: 100%;
+            padding-right: 5px;
         }
         
         #me-img {
@@ -30,6 +31,9 @@
 
         iframe {
         	display:none;
+        }
+        div {
+        	padding-bottom: 10px;
         }
 
 	</style>
@@ -66,7 +70,7 @@
 
 			<div class="col-sm-3">
 				<img src="img/violin.jpg" class="img-thumbnail" alt="" />
-				<h3>Violin</h3>
+				<h3>Music</h3>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
 				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 			</div>
@@ -81,12 +85,22 @@
 
 <iframe name="hidden_iframe" id="hidden_iframe"></iframe>
 	<div id="message"></div>
-
 		<div class="row">
+			<div class="col-sm-9">
+				<h4>Thank you ever so much to:</h4>
+				<img src="img/cfg.png" style="width:200px">
+				<img src="img/codebase.jpeg" style="width:200px">
+				<img src="img/ef.png" style="width:200px">
+				<img src="img/kotikan.png" style="width:200px">
+			</div>
+
+			<div class="col-sm-3">	
+			<h4>I would love to hear from you!</h4>
 			<form action="https://docs.google.com/forms/d/1-RCOw0LkD7wV7GdZ_tkaP78j3ysQNNEsNg2OK9mNI-I/formResponse" method="POST" id="ss-form" target="hidden_iframe">
-				<input type="text" name="entry.1026205804" />
-				<textarea name="entry.1392987783" rows="8" cols="0" class="ss-q-long" id="entry_1392987783" dir="auto" aria-label="Message "></textarea>
-				<input type="submit" name="submit" value="Submit" id="ss-submit" />
+				<p><input type="text" name="entry.1026205804" placeholder="Your email" style="width:250px;"/></p>
+				<p><textarea name="entry.1392987783" rows="8" cols="0" class="ss-q-long" id="entry_1392987783" dir="auto" aria-label="Message " placeholder="Your message" style="width:250px; height:90px"></textarea></p>
+				<p><input type="submit" name="submit" value="Submit" id="ss-submit" /></p>
+			</div>
 			</form>
 		</div>
 	</div>
