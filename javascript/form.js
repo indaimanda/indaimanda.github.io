@@ -7,7 +7,7 @@ $('form#ss-form').on('submit', function () {
 $('iframe').on('load', function () {
   if(submitted === true) {
     $('div#message')
-      .text('Signed up successfully')
+      .text('Message sent successfully')
       .fadeIn()
       .fadeOut(5000);
   }
